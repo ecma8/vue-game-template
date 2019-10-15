@@ -34,7 +34,6 @@
         destroyed() {
         },
         mounted() {
-            PIXI.sound.stopAll();
             let loading = document.getElementsByClassName('page-loading')[0];
             loading.style.display = 'block';
             window.app = this.createApp();
